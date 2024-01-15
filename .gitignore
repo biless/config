@@ -39,3 +39,10 @@ luac.out
 *.x86_64
 *.hex
 
+Battle.net/
+QtProject/
+clash/
+flutter/
+raycast/
+jgit/
+wireshark/

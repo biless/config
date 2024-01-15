@@ -1,0 +1,9 @@
+{
+    "diagnostics.disable": [
+        "missing-fields",
+        "redundant-parameter"
+    ],
+    "diagnostics.globals": [
+        "get_args"
+    ]
+}
