@@ -16,3 +16,6 @@
 
 再按 Ctrl+a+I 进行插件安装
 
+```
+brew install --cask wezterm
+```
