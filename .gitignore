@@ -47,3 +47,4 @@ raycast/
 jgit/
 wireshark/
 tmux/plugins/
+*-lock.json
