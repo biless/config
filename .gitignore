@@ -49,3 +49,4 @@ wireshark/
 tmux/plugins/
 *-lock.json
 configstore/
+htop/
