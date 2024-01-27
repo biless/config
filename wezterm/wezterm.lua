@@ -2,7 +2,9 @@ local wezterm = require("wezterm")
 
 return {
 	font_size = 16,
-	font = wezterm.font("CaskaydiaCove Nerd Font Propo", { italic = true }),
+	font = wezterm.font("CaskaydiaCove Nerd Font Propo"),
+	-- font = wezterm.font("CaskaydiaCove Nerd Font Propo", { weight = "Medium" }),
+	-- font = wezterm.font("Iosevka Nerd Font", { weight = "Medium" }),
 	color_scheme = "Catppuccin Mocha",
 
 	use_fancy_tab_bar = false,
