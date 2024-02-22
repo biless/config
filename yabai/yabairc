@@ -55,5 +55,6 @@ yabai -m rule --add app="^DingTalk*" manage=off
 yabai -m rule --add app="^CleanMyMac*" manage=off
 yabai -m rule --add app="^Dash*" manage=off
 yabai -m rule --add app="^QQ*" manage=off
+yabai -m rule --add app="^Preview*" manage=off
 
 echo "yabai configuration loaded.."
