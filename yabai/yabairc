@@ -43,6 +43,7 @@ yabai -m config left_padding 05
 yabai -m config right_padding 05
 yabai -m config window_gap 05
 # yabai -m config window_animation_duration    0.00
+yabai -m rule --add app=".*" layer=normal
 
 yabai -m rule --add app="^iStat*" sticky=on layer=above manage=off border=off
 yabai -m rule --add app="^System Settings*" manage=off
