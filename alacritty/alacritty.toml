@@ -1,0 +1,18 @@
+live_config_reload = true
+
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[window]
+padding = { x = 5, y = 20 }
+dynamic_padding = true
+decorations = "Transparent"
+opacity = 0.8
+blur = true
+
+
+[font]
+# normal = { family = "CaskaydiaCove Nerd Font" }
+normal = { family = "FantasqueSansM Nerd Font" }
+size = 18
