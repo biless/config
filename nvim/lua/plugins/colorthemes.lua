@@ -18,10 +18,10 @@ return {
         --     style = "nvchad",
         --   },
         -- },
-        -- background = {
-        --   light = "latte",
-        --   dark = "mocha",
-        -- },
+        background = {
+          light = "latte",
+          dark = "mocha",
+        },
         color_overrides = {
           latte = {
             rosewater = "#c14a4a",
@@ -80,7 +80,7 @@ return {
             crust = "#141617",
           },
         },
-        transparent_background = true,
+        transparent_background = false,
         show_end_of_buffer = false,
         integration_default = false,
         integrations = {
