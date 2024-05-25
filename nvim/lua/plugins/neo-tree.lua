@@ -58,20 +58,6 @@ return {
         position = "float",
         width = 35,
       },
-      filesystem = {
-        use_libuv_file_watcher = true,
-        filtered_items = {
-          hide_dotfiles = false,
-          hide_gitignored = false,
-          hide_by_name = {
-            "node_modules",
-          },
-          never_show = {
-            ".DS_Store",
-            "thumbs.db",
-          },
-        },
-      },
       event_handlers = {
         {
           event = "neo_tree_window_after_open",
