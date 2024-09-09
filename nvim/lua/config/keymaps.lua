@@ -9,3 +9,6 @@ vim.keymap.set("n", "<C-l>", "<Cmd>TmuxNavigateRight<CR>", { silent = true })
 
 -- Generate comment for current line
 vim.keymap.set("n", "<Leader>o", "<Plug>(doge-generate)", { desc = "generate code desc" })
+
+-- config document help
+vim.keymap.set("n", "gh", "<Cmd>lua vim.lsp.buf.hover()<CR>", { desc = "query document with help" })
