@@ -53,10 +53,25 @@ return {
             conflict = "",
           },
         },
+        type = {
+          enabled = true,
+          width = 10, -- width of the column
+          required_width = 122, -- min width of window required to show this column
+        },
+        last_modified = {
+          enabled = false,
+          width = 20, -- width of the column
+          required_width = 88, -- min width of window required to show this column
+        },
+        created = {
+          enabled = true,
+          width = 20, -- width of the column
+          required_width = 110, -- min width of window required to show this column
+        },
       },
       window = {
         position = "float",
-        width = 35,
+        width = 30,
       },
       event_handlers = {
         {
