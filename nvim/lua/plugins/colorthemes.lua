@@ -5,8 +5,7 @@ return {
     name = "catppuccin",
     config = function()
       require("catppuccin").setup({
-
-        -- transparent_background = false, -- disables setting the background color.
+        -- transparent_background = true, -- disables setting the background color.
         -- integrations = {
         --   which_key = true,
         --   cmp = true,
@@ -80,7 +79,7 @@ return {
         --     crust = "#141617",
         --   },
         -- },
-        transparent_background = false,
+        transparent_background = true,
         show_end_of_buffer = false,
         integration_default = false,
         integrations = {
@@ -244,6 +243,9 @@ return {
               TSURI = { fg = colors.blue },
               TSVariable = { fg = colors.text },
               TSVariableBuiltin = { fg = colors.mauve },
+
+              FzfLuaNormal = { bg = "#1e1e2e" },
+              FzfLuaBorder = { bg = "#1e1e2e" },
 
               ["@annotation"] = { link = "TSAnnotation" },
               ["@attribute"] = { link = "TSAttribute" },
